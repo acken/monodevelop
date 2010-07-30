@@ -8,7 +8,6 @@
     <widget-library name="../../../../build/AddIns/MonoDevelop.DesignerSupport/MonoDevelop.DesignerSupport.dll" />
     <widget-library name="../../../../build/bin/MonoDevelop.Ide.dll" />
     <widget-library name="../../../../build/AddIns/MonoDevelop.Autotools/MonoDevelop.Autotools.dll" />
-    <widget-library name="../../../../build/AddIns/MonoDevelop.Deployment/MonoDevelop.Deployment.dll" />
     <widget-library name="../../../../build/bin/Mono.TextEditor.dll" />
     <widget-library name="../../../../build/AddIns/MonoDevelop.Gettext/MonoDevelop.Gettext.dll" internal="true" />
   </import>
@@ -758,7 +757,6 @@
                       <widget class="Gtk.RadioButton" id="radiobuttonKnown">
                         <property name="MemberName" />
                         <property name="Label" translatable="yes">_Known Language</property>
-                        <property name="Active">True</property>
                         <property name="DrawIndicator">True</property>
                         <property name="HasLabel">True</property>
                         <property name="UseUnderline">True</property>

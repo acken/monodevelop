@@ -7,7 +7,6 @@
   <import>
     <widget-library name="../../../../build/bin/MonoDevelop.Ide.dll" />
     <widget-library name="../../../../build/AddIns/MonoDevelop.DesignerSupport/MonoDevelop.DesignerSupport.dll" />
-    <widget-library name="../../../../build/AddIns/MonoDevelop.Deployment/MonoDevelop.Deployment.dll" />
     <widget-library name="../../../../build/AddIns/MonoDevelop.Autotools/MonoDevelop.Autotools.dll" internal="true" />
   </import>
   <widget class="Gtk.Bin" id="MonoDevelop.Autotools.MakefileOptionPanelWidget" design-size="589 368">
@@ -1566,7 +1565,6 @@
             <property name="MemberName" />
             <property name="CanFocus">True</property>
             <property name="Label" translatable="yes">Use existing Makefiles</property>
-            <property name="Active">True</property>
             <property name="DrawIndicator">True</property>
             <property name="HasLabel">True</property>
             <property name="UseUnderline">True</property>
